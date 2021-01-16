@@ -90,7 +90,7 @@ Una vez registrado puede ingresar al dashboard de chat donde puede conversar y c
 
 ![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/componestes-generados.png)
 
-- En el siguiente código se presenta el código usado en el pages login el cual fue modificado para que pida los campos de Email y Contraseña junto con dos botones que son para registrarse y el or¿tro para entrar directamente si se tiene ya una cuenta previamente.
+- En el siguiente código se presenta el código usado en el pages login el cual fue modificado para que pida los campos de Email y Contraseña junto con dos botones que son para registrarse y el otro para entrar directamente si se tiene ya una cuenta previamente.
 
 ![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/login-codigo.png)
 
@@ -123,7 +123,7 @@ Los resultados son los siguientes:
 
 ## Video en Yotube :movie_camera:
  
-- 
+- https://www.youtube.com/watch?v=U5f9ex2mDms&feature=youtu.be
 
 
 ### Referencias de ayuda ###
