@@ -41,11 +41,15 @@ npm install -g @ionic/cli
 ionic serve
 ionic serve -l
 
-- Crear el servicio
+- Crear nuevas páginas
 ionic generate [carpera-x]/[nombre-x]
 
 - Instalar Firebase
 npm install firebase @angular/fire --save
+npm install -g @ionic/cli native-run cordova-res
+
+- Encriptación
+npm install crypto-js
 
 - Generar APK 
 ionic cordova build android
@@ -55,22 +59,73 @@ ionic cordova build android
 ## Credenciales 
 
 - Firebase
-![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/claves-conexion.png)
-
-![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/claves-firebase.png)
+![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/credenciales-firebase.png)
 
 
 ## Funcionalidad del Proyecto :pencil2:
 
+- Se crea un proyecto acto seguido codificar el Loginy todos los demás pages y por último transformar a APK
+
+| **Firebase Auth** :speech_balloon:| **Login** :speech_balloon: | **APK** :bust_in_silhouette: |
+| ------------- | ------------- | ------------- | 
+|![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/credenciales-firebase.png) |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/login-codigo.png) |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/apk-transform.png)  |![myimage-alt-tag]|
+
+## Interfaces
+
+La aplicación permite iniciar sesión, en el caso de contar con una cuenta previamente creada. 
+Caso contrario el usuario puede crear una.
+Una vez registrado puede ingresar al dashboard de chat donde puede conversar y compartir imagenes con amigos.
 
 
+| **login** :speech_balloon: | **register** :bust_in_silhouette: | **chat** :scroll:|**imagenes compartidas** 📤|
+| ------------- | ------------- | ------------- | ------------- |
+|![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/login-usuario.png) |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/registro-usuario.png)  |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/chat-amigos.png)  |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/subir-archivos.png) |
+
+## Código:
+Como primer paso creamos el proyecto y realizamos la conexión a FIREBASE.
+![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/credenciales-firebase.png) 
+
+Siguiente generamos pages por ejemplo login, register, services, dashboard.
+![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/componestes-generados.png)
+
+
+En el siguiente código se presenta el código usado en el pages login el cual fue modificado para que pida los campos de Email y Contraseña junto con dos botones que son para registrarse y el or¿tro para entrar directamente si se tiene ya una cuenta previamente.
+
+![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/login-codigo.png)
+
+En el siguiente pages de registro creamos las variables para almacenar la información el firebase y de esta manera se guarde para que el  usuario pueda logearse en la aplicación.
+
+![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/registro-codigo.png)
+
+
+Esta pages lo que hace es presentar el panel de chat para los usuarios que ya estan registrados.
+
+![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/chat-codigo.png)
+
+
+También se añadió imagenes las cuales son de ayuda para la interfaz del usuario.
+
+![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/imagenes-chat.png)
+
+-----------------------------
+## Resultados ✔️
+Los resultados son los siguientes:
+- Ingresa a la APP
+- Se registra
+- Ingresa al login
+- Ingresar al chat
+- Compartir imágenes
+
+| **Paso 1** :speech_balloon: | **Paso 2** :bust_in_silhouette: | **Paso 3** :clapper:|**Paso 4** :scroll:|
+| ------------- | ------------- | ------------- | ------------- |
+|![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/registro-usuario2.png) |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/login-usuario2.png)  |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/chat-amigos.png)  |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/fin-chats2.png) |
 
 ## Video en Yotube :movie_camera:
  
 - 
 
 
-### Referencias ###
+### Referencias de ayuda ###
     1. https://www.youtube.com/watch?v=xgkwOBpU3ek
     2. https://ionicframework.com/docs/api/toolbar
     3. https://ionicons.com/
