@@ -82,28 +82,29 @@ Una vez registrado puede ingresar al dashboard de chat donde puede conversar y c
 |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/login-usuario.png) |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/registro-usuario.png)  |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/chat-amigos.png)  |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/subir-archivos.png) |
 
 ## Código:
-Como primer paso creamos el proyecto y realizamos la conexión a FIREBASE.
+- Como primer paso creamos el proyecto y realizamos la conexión a FIREBASE.
+
 ![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/credenciales-firebase.png) 
 
-Siguiente generamos pages por ejemplo login, register, services, dashboard.
+- Siguiente generamos pages por ejemplo login, register, services, dashboard.
+
 ![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/componestes-generados.png)
 
-
-En el siguiente código se presenta el código usado en el pages login el cual fue modificado para que pida los campos de Email y Contraseña junto con dos botones que son para registrarse y el or¿tro para entrar directamente si se tiene ya una cuenta previamente.
+- En el siguiente código se presenta el código usado en el pages login el cual fue modificado para que pida los campos de Email y Contraseña junto con dos botones que son para registrarse y el or¿tro para entrar directamente si se tiene ya una cuenta previamente.
 
 ![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/login-codigo.png)
 
-En el siguiente pages de registro creamos las variables para almacenar la información el firebase y de esta manera se guarde para que el  usuario pueda logearse en la aplicación.
+- En el siguiente pages de registro creamos las variables para almacenar la información el firebase y de esta manera se guarde para que el  usuario pueda logearse en la aplicación.
 
 ![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/registro-codigo.png)
 
 
-Esta pages lo que hace es presentar el panel de chat para los usuarios que ya estan registrados.
+- Esta pages lo que hace es presentar el panel de chat para los usuarios que ya estan registrados.
 
 ![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/chat-codigo.png)
 
 
-También se añadió imagenes las cuales son de ayuda para la interfaz del usuario.
+- También se añadió imagenes las cuales son de ayuda para la interfaz del usuario.
 
 ![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/imagenes-chat.png)
 
@@ -116,7 +117,7 @@ Los resultados son los siguientes:
 - Ingresar al chat
 - Compartir imágenes
 
-| **Paso 1** :speech_balloon: | **Paso 2** :bust_in_silhouette: | **Paso 3** :clapper:|**Paso 4** :scroll:|
+| **Paso 1️⃣** :speech_balloon: | **Paso 2️⃣** :bust_in_silhouette: | **Paso 3️⃣** :clapper:|**Paso 4️⃣** :scroll:|
 | ------------- | ------------- | ------------- | ------------- |
 |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/registro-usuario2.png) |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/login-usuario2.png)  |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/chat-amigos.png)  |![myimage-alt-tag](https://github.com/JESSICAAMOGUIMBA/Prueba1/blob/main/imagenes-readme/fin-chats2.png) |
 
